@@ -28,20 +28,24 @@ a {
     outline: none;
     text-decoration: none;
     padding: 2px 1px 0;
-    font-size: 45px;
     
-  }
+    
+}
 
 a:link {
     color: #000000;
-  }
+}
   
 a:visited {
     color: #000000;
-  }
+}
 
 
 .back {
     background-color: #F32811;
     color: #FFFFFF;
+}
+
+.horario{
+    font-size: 35px;
 }
