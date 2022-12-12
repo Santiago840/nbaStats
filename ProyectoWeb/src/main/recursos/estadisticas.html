@@ -8,6 +8,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styleIndex.css">
+  <script src="/ProyectoWeb/src/main/java/mx/uv/c80640/funciones.js"></script> 
   <h1 hidden>Stats</h1>
 </head>
 <body>
@@ -29,16 +30,16 @@
             <a class="nav-link" href="estadisticas.html">Estadisticas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Resultados/resultados.html">Resultados</a>
+            <a class="nav-link" href="#" onclick="cargarPagina('cambiador','/ProyectoWeb/src/main/recursos/Resultados/resultados.html')">Resultados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Noticias/noticias.html">Noticias</a>
+            <a class="nav-link" href="#" onclick="cargarPagina('cambiador','/ProyectoWeb/src/main/recursos/Noticias/noticias.html')">Noticias</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
+  <div class="container" id="cambiador">
   <div class="container">
       <div class="row">
         <div class="col">
@@ -155,9 +156,6 @@
             </tbody>
            
           </table>
-
-        
-
         </div>
       </div>
   </div>
@@ -580,7 +578,7 @@
         </table>
 
       </div>
-
+    </div>
     </div>
   </div>
 </body>
