@@ -126,3 +126,22 @@ body{
 .p-e{
     margin-top: 62px;
 }
+
+/*Noticias*/
+.imgNot{
+    width: 400px;
+    float: left;
+    padding-right: 30px;
+}
+
+.hijo{
+    padding: 20px;
+    text-align: justify;
+}
+
+.primera{
+    
+    display: flex;
+}
+
+
