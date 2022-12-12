@@ -107,3 +107,42 @@ a {
 body{
     font-family:'Roboto';
 }
+
+
+/*Resultados*/
+.contTiempo{
+    background-color: gray;
+    margin-top: 20px;
+}
+.barraTiempo{
+    padding: 10px;
+}
+.nav-link.enlaces2{
+    color: black;
+}
+.nav-link.enlaces2:hover, 
+.nav-link.enlaces2:focus{
+    color: rgb(158, 63, 63);
+    text-decoration: underline;
+    display: block;
+}
+.btn:hover,
+.btn:focus{
+    background-color: #05009A;
+    border-color: #05009A;
+}
+.btn{
+    background-image: url(/ProyectoWeb/src/main/recursos/img/iconoCalendario.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    padding-left: 29px;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+
+.parrafo2{
+    background-color: #000000;
+    color: #FFFFFF;
+}
