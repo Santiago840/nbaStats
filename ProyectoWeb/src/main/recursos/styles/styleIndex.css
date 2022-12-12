@@ -122,6 +122,15 @@ body{
     text-decoration: underline;
 }
 
+#noticia{
+    width: 50%;
+}
+
+#tabla{
+    margin-top: 0px;
+}
+
+
 /* Estadisticas */
 .p-e{
     margin-top: 62px;
