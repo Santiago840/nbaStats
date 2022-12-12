@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NBA</title>
+  <link rel="shortcut icon" href="img/logo.ico">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="/ProyectoWeb/src/main/recursos/styles/styleIndex.css">
+  <script src="/ProyectoWeb/src/main/java/mx/uv/c80640/funciones.js"></script> 
+  <h1 hidden>Stats</h1>
+
+  <script>
+    
+  </script>
+  
+</head>
+<body>
+  <div class="row p-4 text-center" ><h2 id="texto1">NBA Stats <br></h2></div>
+  <nav class="navbar navbar-expand-sm sticky-top" id="barraPrincipal">
+    <div class="container-md">
+      <a class="navbar-brand" id="logo" href="#"><img src="/ProyectoWeb/src/main/recursos/img/nbalogo2.png" alt="Imagen principal de la pagina"  width="150" class="d-inline-block align-top"></a>
+      <button alt="Icono de toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span alt="Icono de toggler" class="navbar-toggler-icon"></span><p hidden>Desplegable</p>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="inicio.html">Inicio</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/ProyectoWeb/src/main/recursos/estadisticas.html")>Estadisticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="cargarPagina('cambiador','/ProyectoWeb/src/main/recursos/Resultados/resultados.html')">Resultados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="cargarPagina('cambiador','/ProyectoWeb/src/main/recursos/Noticias/noticias.html')">Noticias</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container" id="cambiador">
+    <div class="row p-4 text-center"><h2></h2></div>
+    <div class="row">
+      <div class="col">
+        <div class="p-2 rounded-top" id="partidosHoy">Partidos de Hoy</div>
+          <div id="cambiador2">
+            <table class="table text-center table-hover">
+              <thead class="table-dark">
+                <tr>
+                  <th>Local</th>
+                  <th>Hora</th>
+                  <th>Visitante</th>
+                </tr>
+              </thead>
+              <tbody id="tablaPartidos">
+                <tr>
+                  <td><a href="EquipoUno.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/DALLAS MAVERICKS.png" alt=""> Dallas Mavericks</a></td>
+                  <td><a href="EquipoUno.html">18:00</a></td>
+                  <td><a href="EquipoUno.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/CHICAGO BULLS.png" alt="">Chicago Bulls</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoDos.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/Booston.png" alt="">Boston Celtics</a></td>
+                  <td><a href="EquipoDos.html">18:00</a></td>
+                  <td><a href="EquipoDos.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/GOLDEN STATE.png" alt="">Golden State Warriors</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoTres.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/UTAH JAZZ.png" alt="">Utah Jazz</a></td>
+                  <td><a href="EquipoTres.html">18:00</a></td>
+                  <td><a href="EquipoTres.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/DENVER NUGGETS.png" alt="">Denver Nuggets</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoCuatro.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/MINNESOTA TIMBERWOLVES.png" alt="">Minnesota Timberwolves</a></td>
+                  <td><a href="EquipoCuatro.html">18:00</a></td>
+                  <td><a href="EquipoCuatro.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/PORTLAND TRAIL BLAZERS.png" alt="">Portland Trail Pelicans</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoCinco.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/PHOENIX SUNS.png" alt="">Phoenix Suns</a></td>
+                  <td><a href="EquipoCinco.html">18:00</a></td>
+                  <td><a href="EquipoCinco.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/NEW ORLEANS PELICANS.png" alt="">New Orleans Pelicans</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoSeis.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/LOS ANGELES LAKERS.png" alt="">Los Anegles Lakers</a></td>
+                  <td><a href="EquipoSeis.html">18:00</a></td>
+                  <td><a href="EquipoSeis.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/DESTROIT PISTONS.png" alt="">Detroit Pistons</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoSiete.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/SACRAMENTO KINGS.png" alt="">Sacramento Kings</a></td>
+                  <td><a href="EquipoSiete.html">18:00</a></td>
+                  <td><a href="EquipoSiete.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/New york Knick.png" alt="">New York knicks</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoOcho.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/TORONTO.png" alt="">Toronto Raptors</a></td>
+                  <td><a href="EquipoOcho.html">18:00</a></td>
+                  <td><a href="EquipoOcho.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/ORLANDO MAGIC.png" alt="">Orlando Magic</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoNueve.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/CHARLOTTE HORNETS.png" alt="">Charlotte Hornets</a></td>
+                  <td><a href="EquipoNueve.html">18:00</a></td>
+                  <td><a href="EquipoNueve.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/PHILADELPHIA.png" alt="">Philadelphia 76ers</a></td>
+                </tr>
+                <tr>
+                  <td><a href="EquipoDiez.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/CHICAGO BULLS.png" alt="">Chicago Bulls</a></td>
+                  <td><a href="EquipoDiez.html">18:00</a></td>
+                  <td><a href="EquipoDiez.html"><img class="imgEquipos" src="/ProyectoWeb/src/main/recursos/img/ATLANTA HAWKS.png" alt="">Atlanta Hawks</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+      </div>
+    </div>
+
+  </div>
+  <footer class="footer p-5 text-center" id="pie">
+    <hr>
+    <p class="link"> <img id="imgPie" src="/ProyectoWeb/src/main/recursos/img/logo.png" alt="Logo de la pagina"> NBA Stats esta página está disponible bajo la licencia de <a href="https://www.uv.mx/">Universidad Veracruzana</a></p>
+    <div id="contacto">
+      <ul id="lista">
+        <li>Contáctanos</li>
+        <li></li>
+        <li></li>
+        <li><a class="link" href="https://www.office.com/launch/word?auth=2">Santiago Emmanuel Chávez Murrieta | zS20018222@estudiantes.uv.mx</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

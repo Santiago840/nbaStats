@@ -12,9 +12,10 @@
 </head>
 <body>
     <!-- Navigation bar -->
-  <nav class="navbar navbar-expand-sm" style="background-color:#000000;">
+    <div class="row p-4 text-center" ><h2 id="texto1">NBA Stats <br></h2></div>
+  <nav class="navbar navbar-expand-sm sticky-top" id="barraPrincipal" style="background-color:#000000;">
     <div class="container-md">
-      <a class="navbar-brand" href="#"><img src="img/nbalogo2.png" alt="Imagen principal de la pagina"  width="170" height="60" class="d-inline-block align-top"></a>
+      <a class="navbar-brand" href="#"><img src="img/nbalogo2.png" alt="Imagen principal de la pagina"  width="150" class="d-inline-block align-top"></a>
       <button alt="Icono de toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span alt="Icono de toggler" class="navbar-toggler-icon"></span><p hidden>Desplegable</p>
       </button>
@@ -22,19 +23,16 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <!-- casi completa -->
-            <a class="nav-link" href="inicio.html">Inicio</a> 
+            <a class="nav-link" href="PaginaPrincipal/inicio.html">Inicio</a> 
           </li>
           <li class="nav-item">
             <a class="nav-link" href="estadisticas.html">Estadisticas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="calendario.html">Calendario</a>
+            <a class="nav-link" href="Resultados/resultados.html">Resultados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="resultados.html">Resultados</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="noticias.html">Noticias</a>
+            <a class="nav-link" href="Noticias/noticias.html">Noticias</a>
           </li>
         </ul>
       </div>
@@ -42,14 +40,13 @@
   </nav>
 
   <div class="container">
-    <div class="row p-4 text-center"><h2>Stats<br><img src="recursos/img/NBAlogo.gif" alt="logo" width="150" height="120"></h2></div>
       <div class="row">
         <div class="col">
-          <div class="p-2 rounded-top text-center" style="background-color: #0D14E2; color:aliceblue; font-weight: bold;" >Tabla general de equipos</div>
+          <div class="p-e rounded-top text-center" style="background-color: #0D14E2; color:aliceblue; font-weight: bold;" >Tabla general de equipos</div>
           <!-- tabla de equipos-->
-          <table class="table text-center table-hover" style="background-color: white
+          <table class="table text-center table-hover" style="background-color: aliceblue
           ;">
-            <thead id="Equipos" class="table-dark"">
+            <thead id="Equipos" class="table-dark">
               <th>Atlantico</th>
               <th>Central</th>
               <th>Noroeste</th>
@@ -59,100 +56,100 @@
             </thead>
             <tbody>
               <tr>
-                <th><img src="recursos/img/imagenes/Equipos NBA/Atlatico/Booston.png" alt="" width="80" height="60">
-                </p>Booston Celtics</th>
+                <th><a href="equipos_estadisticas/Booston.html"><img src="img/imagenes/Equipos NBA/Atlatico/Booston.png" alt="" width="80" height="60">
+                </p> Celtics</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Central/CHICAGO BULLS.png" alt="" width="80" height="60">
-                </p>Chicago Bulls</th>
+                <th><a href="equipos_estadisticas/Chicago.html"><img src="img/imagenes/Equipos NBA/Central/CHICAGO BULLS.png" alt="" width="80" height="60">
+                </p>Chicago Bulls</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Noroeste/DENVER NUGGETS.png" alt="" width="80" height="60">
-                </p>Denver Nuggets</th>
+                <th><a href="equipos_estadisticas/Denver.html"><img src="img/imagenes/Equipos NBA/Noroeste/DENVER NUGGETS.png" alt="" width="80" height="60">
+                </p>Denver Nuggets</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Pacifico/GOLDEN STATE.png" alt="" width="80" height="60">
-                </p>Golden State</th>
+                <th><a href="equipos_estadisticas/Golden.html"><img src="img/imagenes/Equipos NBA/Pacifico/GOLDEN STATE.png" alt="" width="80" height="60">
+                </p>Golden State</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Sureste/ATLANTA HAWKS.png" alt="" width="80" height="60">
-                </p>Atlanta Hawks</th>
+                <th><a href="equipos_estadisticas/Atlanta.html"><img src="img/imagenes/Equipos NBA/Sureste/ATLANTA HAWKS.png" alt="" width="80" height="60">
+                </p>Atlanta Hawks</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Suroeste/DALLAS MAVERICKS.png" alt="" width="80" height="60">
-                </p>Dallas Mavericks</th>
+                <th><a href="equipos_estadisticas/Dallas.html"><img src="img/imagenes/Equipos NBA/Suroeste/DALLAS MAVERICKS.png" alt="" width="80" height="60">
+                </p>Dallas Mavericks</a></th>
               </tr>
               <tr>
-                <th><img src="recursos/img/imagenes/Equipos NBA/Atlatico/Brooklyn Nets.png" alt="" width="80" height="60">
-                </p>Brooklyn Nets</th>
+                <th><a href="equipos_estadisticas/Brooklyn.html"><img src="img/imagenes/Equipos NBA/Atlatico/Brooklyn Nets.png" alt="" width="80" height="60">
+                </p>Brooklyn Nets</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Central/CLEVELAND CAVALIERS.png" alt="" width="80" height="60">
-                </p>Cleveland Cavaliers</th>
+                <th><a href="equipos_estadisticas/Cleveland.html"><img src="img/imagenes/Equipos NBA/Central/CLEVELAND CAVALIERS.png" alt="" width="80" height="60">
+                </p>Cleveland Cavaliers</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Noroeste/MINNESOTA TIMBERWOLVES.png" alt="" width="80" height="60">
-                </p>Minnesota Timberwolves</th>
+                <th><a href="equipos_estadisticas/Minnesota.html"><img src="img/imagenes/Equipos NBA/Noroeste/MINNESOTA TIMBERWOLVES.png" alt="" width="80" height="60">
+                </p>Minnesota Timberwolves</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Pacifico/LA CLIPPERS.png" alt="" width="80" height="60">
-                </p>La Clippers</th>
+                <th><a href="equipos_estadisticas/Clippers.html"><img src="img/imagenes/Equipos NBA/Pacifico/LA CLIPPERS.png" alt="" width="80" height="60">
+                </p>La Clippers</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Sureste/CHARLOTTE HORNETS.png" alt="" width="80" height="60">
-                </p>Charlotte Hornets</th>
+                <th><a href="equipos_estadisticas/Charlotte.html"><img src="img/imagenes/Equipos NBA/Sureste/CHARLOTTE HORNETS.png" alt="" width="80" height="60">
+                </p>Charlotte Hornets</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Suroeste/HOUSTON ROCKETS.png" alt="" width="80" height="60">
-                </p>Houston Rockets</th>
+                <th><a href="equipos_estadisticas/Houston.html"><img src="img/imagenes/Equipos NBA/Suroeste/HOUSTON ROCKETS.png" alt="" width="80" height="60">
+                </p>Houston Rockets</a></th>
               </tr>
               <tr>
-                <th><img src="recursos/img/imagenes/Equipos NBA/Atlatico/New york Knick.png" alt="" width="80" height="60">
-                </p>New York Knicks</th>
+                <th><a href="equipos_estadisticas/New_York.html"><img src="img/imagenes/Equipos NBA/Atlatico/New york Knick.png" alt="" width="80" height="60">
+                </p>New York Knicks</a></th>
 
-                <th>
-                  <img src="recursos/img/imagenes/Equipos NBA/Central/DESTROIT PISTONS.png" alt="" width="80" height="60">
-                </p>Detroit Pistons</th>
+                <th><a href="equipos_estadisticas/Detroit.html">
+                  <img src="img/imagenes/Equipos NBA/Central/DESTROIT PISTONS.png" alt="" width="80" height="60">
+                </p>Detroit Pistons</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Noroeste/OKLAHOMA CITY THUNDER.png" alt="" width="80" height="60">
-                </p>Oklahoma City Thunder</th>
+                <th><a href="equipos_estadisticas/Oklahoma.html"><img src="img/imagenes/Equipos NBA/Noroeste/OKLAHOMA CITY THUNDER.png" alt="" width="80" height="60">
+                </p>Oklahoma City Thunder</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Pacifico/LOS ANGELES LAKERS.png" alt="" width="80" height="60">
-                </p>Los Angeles Lakers</th>
+                <th><a href="equipos_estadisticas/Angeles.html"><img src="img/imagenes/Equipos NBA/Pacifico/LOS ANGELES LAKERS.png" alt="" width="80" height="60">
+                </p>Los Angeles Lakers</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Sureste/MIAMI HEAT.png" alt="" width="80" height="60">
-                </p>Miami Heat</th>
+                <th><a href="equipos_estadisticas/Miami.html"><img src="img/imagenes/Equipos NBA/Sureste/MIAMI HEAT.png" alt="" width="80" height="60">
+                </p>Miami Heat</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Suroeste/MEMPHIS GRIZZLIES.png" alt="" width="80" height="60">
-                </p>Memphis Grizzlies</th>
+                <th><a href="equipos_estadisticas/Memphis.html"><img src="img/imagenes/Equipos NBA/Suroeste/MEMPHIS GRIZZLIES.png" alt="" width="80" height="60">
+                </p>Memphis Grizzlies</a></th>
               </tr>
               <tr>
-                <th><img src="recursos/img/imagenes/Equipos NBA/Atlatico/PHILADELPHIA.png" alt="" width="80" height="60">
-                </p>Philadelphia</th>
+                <th><a href="equipos_estadisticas/Philadelphia.html"><img src="img/imagenes/Equipos NBA/Atlatico/PHILADELPHIA.png" alt="" width="80" height="60">
+                </p>Philadelphia</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Central/INDIANA PACERS.png" alt="" width="80" height="60">
-                </p>Indiana Pacers</th>
+                <th><a href="equipos_estadisticas/Indiana.html"><img src="img/imagenes/Equipos NBA/Central/INDIANA PACERS.png" alt="" width="80" height="60">
+                </p>Indiana Pacers</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Noroeste/PORTLAND TRAIL BLAZERS.png" alt="" width="80" height="60">
-                </p>Portland Trail Blazers</th>
+                <th><a href="equipos_estadisticas/Portland.html"><img src="img/imagenes/Equipos NBA/Noroeste/PORTLAND TRAIL BLAZERS.png" alt="" width="80" height="60">
+                </p>Portland Trail Blazers</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Pacifico/PHOENIX SUNS.png" alt="" width="80" height="60">
-                </p>Phoenix Suns</th>
+                <th><a href="equipos_estadisticas/Phoenix.html"><img src="img/imagenes/Equipos NBA/Pacifico/PHOENIX SUNS.png" alt="" width="80" height="60">
+                </p>Phoenix Suns</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Sureste/ORLANDO MAGIC.png" alt="" width="80" height="60">
-                </p>Orlando Magic</th>
+                <th><a href="equipos_estadisticas/Orlando.html"><img src="img/imagenes/Equipos NBA/Sureste/ORLANDO MAGIC.png" alt="" width="80" height="60">
+                </p>Orlando Magic</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Suroeste/NEW ORLEANS PELICANS.png" alt="" width="80" height="60">
-                </p>New Orleans Pelicans</th>
+                <th><a href="equipos_estadisticas/New_Orleans.html"><img src="img/imagenes/Equipos NBA/Suroeste/NEW ORLEANS PELICANS.png" alt="" width="80" height="60">
+                </p>New Orleans Pelicans</a></th>
               </tr>
               <tr>
-                <th><img src="recursos/img/imagenes/Equipos NBA/Atlatico/TORONTO.png" alt="" width="80" height="60">
-                </p>Toronto</th>
+                <th><a href="equipos_estadisticas/Toronto.html"><img src="img/imagenes/Equipos NBA/Atlatico/TORONTO.png" alt="" width="80" height="60">
+                </p>Toronto Raptors</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Central/MILWAUKEE BUCKS.png" alt="" width="80" height="60">
-                </p>Milwaukee Bucks</th>
+                <th><a href="equipos_estadisticas/Milwaukee.html"><img src="img/imagenes/Equipos NBA/Central/MILWAUKEE BUCKS.png" alt="" width="80" height="60">
+                </p>Milwaukee Bucks</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Noroeste/UTAH JAZZ.png" alt="" width="80" height="60">
-                </p>Utah Jazz</th>
+                <th><a href="equipos_estadisticas/Utah.html"><img src="img/imagenes/Equipos NBA/Noroeste/UTAH JAZZ.png" alt="" width="80" height="60">
+                </p>Utah Jazz</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Pacifico/SACRAMENTO KINGS.png" alt="" width="80" height="60">
-                </p>Sacramento Kings</th>
+                <th><a href="equipos_estadisticas/Sacramento.html"><img src="img/imagenes/Equipos NBA/Pacifico/SACRAMENTO KINGS.png" alt="" width="80" height="60">
+                </p>Sacramento Kings</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Sureste/WASHINGTON WIZARDS.png" alt="" width="80" height="60">
-                </p>Washington Wizards</th>
+                <th><a href="equipos_estadisticas/Washington.html"><img src="img/imagenes/Equipos NBA/Sureste/WASHINGTON WIZARDS.png" alt="" width="80" height="60">
+                </p>Washington Wizards</a></th>
 
-                <th><img src="recursos/img/imagenes/Equipos NBA/Suroeste/SAN ANTONIO SPURS.png" alt="" width="80" height="60">
-                </p>San Antonio Spurs</th>
+                <th><a href="equipos_estadisticas/San_Antonio.html"><img src="img/imagenes/Equipos NBA/Suroeste/SAN ANTONIO SPURS.png" alt="" width="80" height="60">
+                </p>San Antonio Spurs</a></th>
               </tr>
               
             </tbody>
@@ -170,7 +167,7 @@
       <div class="col">
         <div class="p-2 rounded-top text-center" style="background-color: #0D14E2; color:white; font-weight:bold;"> Tabla General</div>
         
-        <table class="table text-center table-hover" style="background-color: white;">
+        <table class="table text-center table-hover" style="background-color: aliceblue;">
           <thead class="table-dark">
             <tr>
               <th>Pos Equipo</th>
@@ -186,7 +183,7 @@
             </tr>
           <tbody>
             <tr>
-              <td style="text-align: left;">1 <img src="recursos/img/imagenes/Equipos NBA/Atlatico/Booston.png" alt="booston" width="40" height="30"> Booston Celtics
+              <td style="text-align: left;">1 <img src="img/imagenes/Equipos NBA/Atlatico/.png" alt="" width="40" height="30">  Celtics
               </td>
               <td>21</td>
               <td>5</td>
@@ -199,7 +196,7 @@
               <td>112,0</td>
             </tr>
             <tr>
-              <td style="text-align: left;">2 <img src="recursos/img/imagenes/Equipos NBA/Central/MILWAUKEE BUCKS.png" alt="booston" width="40" height="30"> Milwaukee Bucks
+              <td style="text-align: left;">2 <img src="img/imagenes/Equipos NBA/Central/MILWAUKEE BUCKS.png" alt="" width="40" height="30"> Milwaukee Bucks
               </td>
               <td>19</td>
               <td>6</td>
@@ -212,7 +209,7 @@
               <td>107,9</td>
             </tr>
             <tr>
-              <td style="text-align: left;">3 <img src="recursos/img/imagenes/Equipos NBA/Suroeste/NEW ORLEANS PELICANS.png" alt="booston" width="40" height="30"> New Orleans Pelicans
+              <td style="text-align: left;">3 <img src="img/imagenes/Equipos NBA/Suroeste/NEW ORLEANS PELICANS.png" alt="" width="40" height="30"> New Orleans Pelicans
               </td>
               <td>17</td>
               <td>8</td>
@@ -225,7 +222,7 @@
               <td>110,1</td>
             </tr>
             <tr>
-              <td style="text-align: left;">4 <img src="recursos/img/imagenes/Equipos NBA/Suroeste/MEMPHIS GRIZZLIES.png" alt="booston" width="40" height="30"> Memphis Grizzlies
+              <td style="text-align: left;">4 <img src="img/imagenes/Equipos NBA/Suroeste/MEMPHIS GRIZZLIES.png" alt="" width="40" height="30"> Memphis Grizzlies
               </td>
               <td>17</td>
               <td>9</td>
@@ -238,7 +235,7 @@
               <td>112,0</td>
             </tr>
             <tr>
-              <td style="text-align: left;">5 <img src="recursos/img/imagenes/Equipos NBA/Pacifico/PHOENIX SUNS.png" alt="booston" width="40" height="30"> Phoenix Suns
+              <td style="text-align: left;">5 <img src="img/imagenes/Equipos NBA/Pacifico/PHOENIX SUNS.png" alt="" width="40" height="30"> Phoenix Suns
               </td>
               <td>16</td>
               <td>10</td>
@@ -251,7 +248,7 @@
               <td>110,6</td>
             </tr>
             <tr>
-              <td style="text-align: left;">6 <img src="recursos/img/imagenes/Equipos NBA/Central/CLEVELAND CAVALIERS.png" alt="booston" width="40" height="30"> Cleveland Cavaliers
+              <td style="text-align: left;">6 <img src="img/imagenes/Equipos NBA/Central/CLEVELAND CAVALIERS.png" alt="" width="40" height="30"> Cleveland Cavaliers
               </td>
               <td>16</td>
               <td>10</td>
@@ -264,7 +261,7 @@
               <td>104,9</td>
             </tr>
             <tr>
-              <td style="text-align: left;">7 <img src="recursos/img/imagenes/Equipos NBA/Noroeste/DENVER NUGGETS.png" alt="booston" width="40" height="30"> Denver Nuggets
+              <td style="text-align: left;">7 <img src="img/imagenes/Equipos NBA/Noroeste/DENVER NUGGETS.png" alt="" width="40" height="30"> Denver Nuggets
               </td>
               <td>15</td>
               <td>10</td>
@@ -277,7 +274,7 @@
               <td>114,0</td>
             </tr>
             <tr>
-              <td style="text-align: left;">8 <img src="recursos/img/imagenes/Equipos NBA/Pacifico/SACRAMENTO KINGS.png" alt="booston" width="40" height="30"> Sacramento Kings
+              <td style="text-align: left;">8 <img src="img/imagenes/Equipos NBA/Pacifico/SACRAMENTO KINGS.png" alt="" width="40" height="30"> Sacramento Kings
               </td>
               <td>14</td>
               <td>10</td>
@@ -290,7 +287,7 @@
               <td>115,1</td>
             </tr>
             <tr>
-              <td style="text-align: left;">9 <img src="recursos/img/imagenes/Equipos NBA/Atlatico/Brooklyn Nets.png" alt="booston" width="40" height="30"> Brooklyn Nets
+              <td style="text-align: left;">9 <img src="img/imagenes/Equipos NBA/Atlatico/Brooklyn Nets.png" alt="" width="40" height="30"> Brooklyn Nets
               </td>
               <td>15</td>
               <td>12</td>
@@ -303,7 +300,7 @@
               <td>110,5</td>
             </tr>
             <tr>
-              <td style="text-align: left;">10 <img src="recursos/img/imagenes/Equipos NBA/Central/INDIANA PACERS.png" alt="booston" width="40" height="30"> Indiana Pacers
+              <td style="text-align: left;">10 <img src="img/imagenes/Equipos NBA/Central/INDIANA PACERS.png" alt="" width="40" height="30"> Indiana Pacers
               </td>
               <td>14</td>
               <td>12</td>
@@ -316,7 +313,7 @@
               <td>115,9</td>
             </tr>
             <tr>
-              <td style="text-align: left;">11 <img src="recursos/img/imagenes/Equipos NBA/Noroeste/UTAH JAZZ.png" alt="booston" width="40" height="30"> Utah Jazz
+              <td style="text-align: left;">11 <img src="img/imagenes/Equipos NBA/Noroeste/UTAH JAZZ.png" alt="" width="40" height="30"> Utah Jazz
               </td>
               <td>13</td>
               <td>12</td>
@@ -329,7 +326,7 @@
               <td>115,9</td>
             </tr>
             <tr>
-              <td style="text-align: left;">12 <img src="recursos/img/imagenes/Equipos NBA/Suroeste/DALLAS MAVERICKS.png" alt="booston" width="40" height="30"> Dallas Mavericks
+              <td style="text-align: left;">12 <img src="img/imagenes/Equipos NBA/Suroeste/DALLAS MAVERICKS.png" alt="" width="40" height="30"> Dallas Mavericks
               </td>
               <td>13</td>
               <td>12</td>
@@ -342,7 +339,7 @@
               <td>108,6</td>
             </tr>
             <tr>
-              <td style="text-align: left;">13 <img src="recursos/img/imagenes/Equipos NBA/Noroeste/MINNESOTA TIMBERWOLVES.png" alt="booston" width="40" height="30"> Minnesota Timberwolves
+              <td style="text-align: left;">13 <img src="img/imagenes/Equipos NBA/Noroeste/MINNESOTA TIMBERWOLVES.png" alt="" width="40" height="30"> Minnesota Timberwolves
               </td>
               <td>13</td>
               <td>12</td>
@@ -355,7 +352,7 @@
               <td>115,8</td>
             </tr>
             <tr>
-              <td style="text-align: left;">14 <img src="recursos/img/imagenes/Equipos NBA/Noroeste/PORTLAND TRAIL BLAZERS.png" alt="booston" width="40" height="30"> portland Trail Blazers
+              <td style="text-align: left;">14 <img src="img/imagenes/Equipos NBA/Noroeste/PORTLAND TRAIL BLAZERS.png" alt="" width="40" height="30"> Portland Trail Blazers
               </td>
               <td>13</td>
               <td>12</td>
@@ -368,7 +365,7 @@
               <td>111,4</td>
             </tr>
             <tr>
-              <td style="text-align: left;">15 <img src="recursos/img/imagenes/Equipos NBA/Atlatico/PHILADELPHIA.png" alt="booston" width="40" height="30"> Philadelphia 76ers
+              <td style="text-align: left;">15 <img src="img/imagenes/Equipos NBA/Atlatico/PHILADELPHIA.png" alt="" width="40" height="30"> Philadelphia 76ers
               </td>
               <td>13</td>
               <td>12</td>
@@ -381,7 +378,7 @@
               <td>108,2</td>
             </tr>
             <tr>
-              <td style="text-align: left;">16 <img src="recursos/img/imagenes/Equipos NBA/Pacifico/LA CLIPPERS.png" alt="booston" width="40" height="30"> La Clippers
+              <td style="text-align: left;">16 <img src="img/imagenes/Equipos NBA/Pacifico/LA CLIPPERS.png" alt="" width="40" height="30"> La Clippers
               </td>
               <td>14</td>
               <td>13</td>
@@ -394,7 +391,7 @@
               <td>109,3</td>
             </tr>
             <tr>
-              <td style="text-align: left;">17 <img src="recursos/img/imagenes/Equipos NBA/Pacifico/GOLDEN STATE.png" alt="booston" width="40" height="30"> Golden State Warriors
+              <td style="text-align: left;">17 <img src="img/imagenes/Equipos NBA/Pacifico/GOLDEN STATE.png" alt="" width="40" height="30"> Golden State Warriors
               </td>
               <td>13</td>
               <td>13</td>
@@ -407,7 +404,7 @@
               <td>116,4</td>
             </tr>
             <tr>
-              <td style="text-align: left;">18 <img src="recursos/img/imagenes/Equipos NBA/Sureste/ATLANTA HAWKS.png" alt="booston" width="40" height="30"> Atlanta Hawks
+              <td style="text-align: left;">18 <img src="img/imagenes/Equipos NBA/Sureste/ATLANTA HAWKS.png" alt="" width="40" height="30"> Atlanta Hawks
               </td>
               <td>13</td>
               <td>13</td>
@@ -420,7 +417,7 @@
               <td>113,9</td>
             </tr>
             <tr>
-              <td style="text-align: left;">19 <img src="recursos/img/imagenes/Equipos NBA/Atlatico/New york Knick.png" alt="booston" width="40" height="30"> New York Knicks
+              <td style="text-align: left;">19 <img src="img/imagenes/Equipos NBA/Atlatico/New york Knick.png" alt="" width="40" height="30"> New York Knicks
               </td>
               <td>13</td>
               <td>13</td>
@@ -433,7 +430,7 @@
               <td>113,5</td>
             </tr>
             <tr>
-              <td style="text-align: left;">20 <img src="recursos/img/imagenes/Equipos NBA/Atlatico/TORONTO.png" alt="booston" width="40" height="30"> Toronto Raptors
+              <td style="text-align: left;">20 <img src="img/imagenes/Equipos NBA/Atlatico/TORONTO.png" alt="" width="40" height="30"> Toronto Raptors
               </td>
               <td>13</td>
               <td>13</td>
@@ -446,7 +443,7 @@
               <td>110,0</td>
             </tr>
             <tr>
-              <td style="text-align: left;">21 <img src="recursos/img/imagenes/Equipos NBA/Sureste/MIAMI HEAT.png" alt="booston" width="40" height="30"> Miami Heat
+              <td style="text-align: left;">21 <img src="img/imagenes/Equipos NBA/Sureste/MIAMI HEAT.png" alt="" width="40" height="30"> Miami Heat
               </td>
               <td>12</td>
               <td>14</td>
@@ -459,7 +456,7 @@
               <td>110,2</td>
             </tr>
             <tr>
-              <td style="text-align: left;">22 <img src="recursos/img/imagenes/Equipos NBA/Noroeste/OKLAHOMA CITY THUNDER.png" alt="booston" width="40" height="30"> Oklahoma City Thunder
+              <td style="text-align: left;">22 <img src="img/imagenes/Equipos NBA/Noroeste/OKLAHOMA CITY THUNDER.png" alt="" width="40" height="30"> Oklahoma City Thunder
               </td>
               <td>11</td>
               <td>14</td>
@@ -472,7 +469,7 @@
               <td>117,9</td>
             </tr>
             <tr>
-              <td style="text-align: left;">23 <img src="recursos/img/imagenes/Equipos NBA/Sureste/WASHINGTON WIZARDS.png" alt="booston" width="40" height="30"> Washington Wizards
+              <td style="text-align: left;">23 <img src="img/imagenes/Equipos NBA/Sureste/WASHINGTON WIZARDS.png" alt="" width="40" height="30"> Washington Wizards
               </td>
               <td>11</td>
               <td>15</td>
@@ -485,7 +482,7 @@
               <td>112,0</td>
             </tr>
             <tr>
-              <td style="text-align: left;">24 <img src="recursos/img/imagenes/Equipos NBA/Central/CHICAGO BULLS.png" alt="booston" width="40" height="30"> Chicago Bulls
+              <td style="text-align: left;">24 <img src="img/imagenes/Equipos NBA/Central/CHICAGO BULLS.png" alt="" width="40" height="30"> Chicago Bulls
               </td>
               <td>10</td>
               <td>14</td>
@@ -498,7 +495,7 @@
               <td>116,3</td>
             </tr>
             <tr>
-              <td style="text-align: left;">25 <img src="recursos/img/imagenes/Equipos NBA/Pacifico/LOS ANGELES LAKERS.png" alt="booston" width="40" height="30"> Los Angeles Lakers
+              <td style="text-align: left;">25 <img src="img/imagenes/Equipos NBA/Pacifico/LOS ANGELES LAKERS.png" alt="" width="40" height="30"> Los Angeles Lakers
               </td>
               <td>10</td>
               <td>15</td>
@@ -511,7 +508,7 @@
               <td>116,3</td>
             </tr>
             <tr>
-              <td style="text-align: left;">26 <img src="recursos/img/imagenes/Equipos NBA/Suroeste/SAN ANTONIO SPURS.png" alt="booston" width="40" height="30"> San Antonio Spurs
+              <td style="text-align: left;">26 <img src="img/imagenes/Equipos NBA/Suroeste/SAN ANTONIO SPURS.png" alt="" width="40" height="30"> San Antonio Spurs
               </td>
               <td>8</td>
               <td>18</td>
@@ -524,7 +521,7 @@
               <td>120,4</td>
             </tr>
             <tr>
-              <td style="text-align: left;">27 <img src="recursos/img/imagenes/Equipos NBA/Suroeste/HOUSTON ROCKETS.png" alt="booston" width="40" height="30"> Houston Rockets
+              <td style="text-align: left;">27 <img src="img/imagenes/Equipos NBA/Suroeste/HOUSTON ROCKETS.png" alt="" width="40" height="30"> Houston Rockets
               </td>
               <td>7</td>
               <td>18</td>
@@ -537,7 +534,7 @@
               <td>117,2</td>
             </tr>
             <tr>
-              <td style="text-align: left;">28 <img src="recursos/img/imagenes/Equipos NBA/Sureste/CHARLOTTE HORNETS.png" alt="booston" width="40" height="30"> Charlotte Hornets
+              <td style="text-align: left;">28 <img src="img/imagenes/Equipos NBA/Sureste/CHARLOTTE HORNETS.png" alt="" width="40" height="30"> Charlotte Hornets
               </td>
               <td>7</td>
               <td>19</td>
@@ -550,7 +547,7 @@
               <td>115,6</td>
             </tr>
             <tr>
-              <td style="text-align: left;">29 <img src="recursos/img/imagenes/Equipos NBA/Sureste/ORLANDO MAGIC.png" alt="booston" width="40" height="30"> Orlando Magic
+              <td style="text-align: left;">29 <img src="img/imagenes/Equipos NBA/Sureste/ORLANDO MAGIC.png" alt="" width="40" height="30"> Orlando Magic
               </td>
               <td>7</td>
               <td>20</td>
@@ -563,7 +560,7 @@
               <td>113,9</td>
             </tr>
             <tr>
-              <td style="text-align: left;">30 <img src="recursos/img/imagenes/Equipos NBA/Pacifico/LOS ANGELES LAKERS.png" alt="booston" width="40" height="30"> Detroit Pistons
+              <td style="text-align: left;">30 <img src="img/imagenes/Equipos NBA/Pacifico/LOS ANGELES LAKERS.png" alt="" width="40" height="30"> Detroit Pistons
               </td>
               <td>7</td>
               <td>21</td>
@@ -586,8 +583,19 @@
 
     </div>
   </div>
-
-  
-  
 </body>
+<footer class="footer p-5 text-center" id="pie">
+  <hr>
+  <p class="link"> <img id="imgPie" src="/ProyectoWeb/src/main/recursos/img/logo.png" alt="Logo de la pagina"> NBA Stats esta página está disponible bajo la licencia de <a href="https://www.uv.mx/">Universidad Veracruzana</a></p>
+  <div id="contacto">
+    <ul id="lista">
+      <li>Contáctanos</li>
+      <li></li>
+      <li></li>
+      <li><a class="link" href="https://www.office.com/launch/word?auth=2">Santiago Emmanuel Chávez Murrieta | zS20018222@estudiantes.uv.mx</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </html>
