@@ -12,23 +12,25 @@
   <h1 hidden>Stats</h1>
 </head>
 <body>
-  <div class="container-sm contTiempo" id="barraTiempo2">
-    <ul class="nav justify-content-center barraTiempo">
-      <li class="nav-item">
-        <a class="nav-link enlaces2" href="#" onclick="cargarPagina('parrafo2','/ProyectoWeb/src/main/recursos/Resultados/Recientes.html')">Anteriores</a> 
-      </li>
-      <li class="nav-item">
-        <a class="nav-link enlaces2" href="#" onclick="cargarPagina('parrafo2','/ProyectoWeb/src/main/recursos/Resultados/Anteriores.html')">Recientes</a>
-      </li>
-      <li class="nav-item">
-        <button class="btn btn-primary">Calendario</button>
-      </li>
-    </ul>
-  </div>
-
+  <div class="container">
+    <div class="row p-4 text-center"><h2></h2></div>
+    <div class="row">
+      <div class="col">
+        <div class="p-2 rounded-top" id="partidosHoy">Resultados</div>
+          <table class="table text-center table-hover">
+            <thead class="table-dark">
+              <tr>
+                <th><a class="nav-link enlaces2" href="#" onclick="cargarPagina('parrafo2','/ProyectoWeb/src/main/recursos/Resultados/Recientes.html')">Anteriores</a> </th>
+                <th></th>
+                <th><a class="nav-link enlaces2" href="#" onclick="cargarPagina('parrafo2','/ProyectoWeb/src/main/recursos/Resultados/Anteriores.html')">Recientes</a></th>
+              </tr>
+            </thead>
+          </table>
+      </div>
+    </div>
+  </div>        
   <div class="container-xl" id="parrafo2">
 
   </div>
-  
 </body>
 </html>
