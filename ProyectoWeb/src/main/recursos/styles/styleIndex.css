@@ -122,12 +122,16 @@ body{
     text-decoration: underline;
 }
 
-#noticia{
-    width: 50%;
+.video{
+    width: 60%;
 }
 
 #tabla{
     margin-top: 0px;
+}
+
+.noticia{
+    width: 50%;
 }
 
 
