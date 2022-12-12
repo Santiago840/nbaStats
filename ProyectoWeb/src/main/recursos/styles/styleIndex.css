@@ -125,4 +125,27 @@ body{
 /* Estadisticas */
 .p-e{
     margin-top: 62px;
+<<<<<<< HEAD
 }
+=======
+}
+
+/*Noticias*/
+.imgNot{
+    width: 400px;
+    float: left;
+    padding-right: 30px;
+}
+
+.hijo{
+    padding: 20px;
+    text-align: justify;
+}
+
+.primera{
+    
+    display: flex;
+}
+
+
+>>>>>>> b5bf05e43cf78e7075496f843c37d501e21bf51f
